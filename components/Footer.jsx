@@ -99,18 +99,18 @@ const Footer = () => {
               <div className="flex items-center gap-3 text-slate-500">
                 <Mail size={18} className="text-slate-400" />
                 <span className="text-sm font-medium">
-                  team@socialdynamics.cloud
+                  team@Socialdynamics.digital
                 </span>
               </div>
               <div className="flex items-center gap-3 text-slate-500">
                 <Globe size={18} className="text-slate-400" />
                 <span className="text-sm font-medium">
-                  socialdynamics.cloud
+                  Socialdynamics.digital
                 </span>
               </div>
               <div className="flex items-center gap-3 text-slate-500">
                 <Phone size={18} className="text-slate-400" />
-                <span className="text-sm font-medium">9916989925</span>
+                <span className="text-sm font-medium">+91 9916989925</span>
               </div>
             </div>
           </div>

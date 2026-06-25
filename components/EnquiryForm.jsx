@@ -9,7 +9,7 @@ const EnquiryForm = () => {
     name: "",
     phone: "",
     emailAddress: "",
-    zipCode: "",
+    PinCode: "",
     service: "Web Development",
     message: "",
   });
@@ -36,7 +36,7 @@ const EnquiryForm = () => {
       `*Name:* ${formData.name}\n` +
       `*Phone:* ${formData.phone}\n` +
       `*Email:* ${formData.emailAddress}\n` +
-      `*Zip Code:* ${formData.zipCode}\n` +
+      `*Zip Code:* ${formData.PinCode}\n` +
       `*Service Required:* ${formData.service}\n\n` +
       `*Message:* ${formData.message}`;
 
@@ -50,13 +50,13 @@ const EnquiryForm = () => {
       alert("Please fill out at least your Name and Message to send an email.");
       return;
     }
-    const email = "team@socialdynamics.cloud";
+    const email = "team@Socialdynamics.digital";
     const subject = encodeURIComponent(`Project Enquiry: ${formData.service}`);
     const body = encodeURIComponent(
       `Name: ${formData.name}\n` +
       `Phone: ${formData.phone}\n` +
       `Email: ${formData.emailAddress}\n` +
-      `Zip Code: ${formData.zipCode}\n` +
+      `Zip Code: ${formData.PinCode}\n` +
       `Service: ${formData.service}\n\n` +
       `Message:\n${formData.message}`
     );
@@ -94,7 +94,7 @@ const EnquiryForm = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Official Support</p>
-                  <p className="text-lg font-bold text-slate-900">team@socialdynamics.cloud</p>
+                  <p className="text-lg font-bold text-slate-900">team@Socialdynamics.digital</p>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ const EnquiryForm = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Official Line</p>
-                  <p className="text-lg font-bold text-slate-900">9916989925</p>
+                  <p className="text-lg font-bold text-slate-900">+91 9916989925</p>
                 </div>
               </div>
             </div>
@@ -181,8 +181,8 @@ const EnquiryForm = () => {
                       type="text"
                       placeholder="Postal / Zip code"
                       className="w-full pl-12 pr-4 py-3.5 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-slate-500 transition-all outline-none text-slate-900 font-medium placeholder:text-slate-300"
-                      value={formData.zipCode}
-                      onChange={(e) => setFormData({ ...formData, zipCode: e.target.value })}
+                      value={formData.PinCode}
+                      onChange={(e) => setFormData({ ...formData, PinCode: e.target.value })}
                     />
                   </div>
                 </div>

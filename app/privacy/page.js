@@ -11,7 +11,7 @@ export default function PrivacyPage() {
         <div className="space-y-10 text-slate-600 leading-relaxed">
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Introduction</h2>
-            <p>Welcome to Social Dynamics. We value your privacy and the security of your data. This policy explains how we collect, use, and protect your information when you visit socialdynamics.cloud or use our SaaS products.</p>
+            <p>Welcome to Social Dynamics. We value your privacy and the security of your data. This policy explains how we collect, use, and protect your information when you visit Socialdynamics.digital or use our SaaS products.</p>
           </section>
 
           <section>
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Your Rights</h2>
-            <p>You have the right to request access to the personal data we hold, request corrections, or ask for the deletion of your information. For any such requests, please contact team@socialdynamics.cloud.</p>
+            <p>You have the right to request access to the personal data we hold, request corrections, or ask for the deletion of your information. For any such requests, please contact team@Socialdynamics.digital.</p>
           </section>
         </div>
       </div>

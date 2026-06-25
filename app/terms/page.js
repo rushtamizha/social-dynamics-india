@@ -10,7 +10,7 @@ export default function TermsPage() {
         <div className="space-y-10 text-slate-600 leading-relaxed">
           <section>
             <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Acceptance of Terms</h2>
-            <p>By accessing socialdynamics.cloud, you agree to be bound by these terms, all applicable laws, and regulations. If you do not agree with any of these terms, you are prohibited from using this site.</p>
+            <p>By accessing Socialdynamics.digital, you agree to be bound by these terms, all applicable laws, and regulations. If you do not agree with any of these terms, you are prohibited from using this site.</p>
           </section>
 
           <section>

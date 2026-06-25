@@ -136,7 +136,7 @@ const FAQ = () => {
         <div className="mt-16 text-center hidden">
           <p className="text-slate-400 text-sm font-medium">
             Still have questions?{" "}
-            <a href="mailto:team@socialdynamics.cloud" className="text-slate-900 font-bold hover:underline">
+            <a href="mailto:team@Socialdynamics.digital" className="text-slate-900 font-bold hover:underline">
               Contact our team directly.
             </a>
           </p>

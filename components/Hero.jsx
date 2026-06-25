@@ -18,7 +18,7 @@ import {
 const Hero = () => {
   // Gmail Redirection Handler
   const gmailRedirect = () => {
-    const email = "team@socialdynamics.cloud";
+    const email = "team@Socialdynamics.digital";
     const subject = encodeURIComponent("Inquiry: AI & Digital Growth Strategies");
     const body = encodeURIComponent("Hi Team,\n\nI'm interested in growing my business with your AI-powered digital strategies. Let's connect.");
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;

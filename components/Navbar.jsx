@@ -29,7 +29,7 @@ const Navbar = () => {
 
   // Added missing function that was causing the crash/error
   const handleEmailRedirect = () => {
-    const email = "team@socialdynamics.cloud";
+    const email = "team@Socialdynamics.digital";
     const subject = encodeURIComponent("Project Inquiry - Social Dynamics");
     const body = encodeURIComponent("Hi Team,\n\nI would like to discuss a project with you.");
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;

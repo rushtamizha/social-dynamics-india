@@ -7,7 +7,7 @@ import { ArrowRight, Mail, ShieldCheck, Zap, Target, MessageSquare } from "lucid
 const About = () => {
   // Gmail Redirection
   const handleEmail = (subject) => {
-    const email = "team@socialdynamics.cloud";
+    const email = "team@Socialdynamics.digital";
     const formattedSubject = encodeURIComponent(subject);
     const body = encodeURIComponent(
       "Hi Team,\n\nI'm interested in learning more about your digital marketing services. Let's discuss a project.",

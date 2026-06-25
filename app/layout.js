@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://socialdynamics.cloud'),
+  metadataBase: new URL('https://Socialdynamics.digital'),
   title: {
     default: "Social Dynamics | ROI-Driven Digital Marketing & Growth Agency",
     template: "%s | Social Dynamics"
@@ -32,7 +32,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://socialdynamics.cloud",
+    url: "https://Socialdynamics.digital",
     title: "Scale Your Revenue with Social Dynamics | Digital Marketing Experts",
     description: "We turn clicks into customers using advanced AI automation and data-backed marketing strategies.",
     siteName: "Social Dynamics",
