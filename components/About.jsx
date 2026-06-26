@@ -91,7 +91,7 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="flex flex-col sm:flex-row gap-4"
+              className="flex  gap-4"
             >
               <button
                 onClick={() => handleEmail("Quote Request - Social Dynamics")}
@@ -111,7 +111,6 @@ const About = () => {
               >
                 <MessageSquare size={18} className="text-white" />
                 WhatsApp Us
-                <ArrowRight size={18} className="text-white group-hover:translate-x-1 transition-transform" />
               </button>
             </motion.div>
           </div>

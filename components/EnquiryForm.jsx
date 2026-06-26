@@ -36,7 +36,7 @@ const EnquiryForm = () => {
       `*Name:* ${formData.name}\n` +
       `*Phone:* ${formData.phone}\n` +
       `*Email:* ${formData.emailAddress}\n` +
-      `*Zip Code:* ${formData.PinCode}\n` +
+      `*Pin Code:* ${formData.PinCode}\n` +
       `*Service Required:* ${formData.service}\n\n` +
       `*Message:* ${formData.message}`;
 
@@ -56,7 +56,7 @@ const EnquiryForm = () => {
       `Name: ${formData.name}\n` +
       `Phone: ${formData.phone}\n` +
       `Email: ${formData.emailAddress}\n` +
-      `Zip Code: ${formData.PinCode}\n` +
+      `Pin Code: ${formData.PinCode}\n` +
       `Service: ${formData.service}\n\n` +
       `Message:\n${formData.message}`
     );
@@ -169,17 +169,17 @@ const EnquiryForm = () => {
                 </div>
               </div>
 
-              {/* Grid Wrapper for Zip Code and Services Selection */}
+              {/* Grid Wrapper for Pin Code and Services Selection */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Zip Code Field */}
+                {/* Pin Code Field */}
                 <div className="space-y-1">
-                  <label className="text-[10px] font-black uppercase tracking-widest text-slate-400 ml-1">Zip Code</label>
+                  <label className="text-[10px] font-black uppercase tracking-widest text-slate-400 ml-1">Pin Code</label>
                   <div className="relative">
                     <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-300" size={18} />
                     <input
                       required
                       type="text"
-                      placeholder="Postal / Zip code"
+                      placeholder="Postal / Pin code"
                       className="w-full pl-12 pr-4 py-3.5 bg-slate-50 border-none rounded-2xl focus:ring-2 focus:ring-slate-500 transition-all outline-none text-slate-900 font-medium placeholder:text-slate-300"
                       value={formData.PinCode}
                       onChange={(e) => setFormData({ ...formData, PinCode: e.target.value })}

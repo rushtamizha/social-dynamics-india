@@ -108,26 +108,27 @@ const Hero = () => {
 
             <motion.div
               variants={itemVariants}
-              className="flex flex-col sm:flex-row gap-4 pt-4"
+              className="flex  gap-4 "
             >
-              <button
-                onClick={gmailRedirect}
-                className="group relative flex items-center justify-center gap-3 px-8 py-5 bg-slate-900 text-white rounded-2xl font-bold text-lg hover:bg-slate-800 transition-all active:scale-95 overflow-hidden"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-500/10 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700" />
-                <Mail size={22} className="text-slate-400" />
-                Start a Conversation
-              </button>
-
-              {/* Functional WhatsApp Button */}
-              <button 
-                onClick={whatsappRedirect}
-                className="flex items-center justify-center gap-3 px-8 py-5 bg-emerald-600 border border-emerald-200 text-white rounded-2xl font-bold text-lg hover:border-emerald-600 transition-all active:scale-95"
-              >
-                <MessageSquare  size={20} className="text-white" />
-                WhatsApp
-                <ArrowRight size={20} className="text-white group-hover:translate-x-1 transition-transform" />
-              </button>
+             <button
+                             onClick={gmailRedirect}
+                             className="group flex items-center justify-center gap-3 px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold transition-all hover:bg-slate-800 active:scale-95 w-full sm:w-auto"
+                           >
+                             Get Free Quote
+                             <Mail
+                               size={18}
+                               className="text-slate-400 group-hover:scale-110 transition-transform"
+                             />
+                           </button>
+             
+                           {/* Functional WhatsApp Integration */}
+                           <button
+                             onClick={whatsappRedirect}
+                             className="group flex items-center gap-3 px-8 py-4 border-2 border-slate-200 text-white rounded-2xl font-bold hover:border-emerald-200 transition-all bg-emerald-600 justify-center duration-300 w-full sm:w-auto active:scale-95 shadow-sm"
+                           >
+                             <MessageSquare size={18} className="text-white" />
+                             WhatsApp Us
+                           </button>
             </motion.div>
 
             {/* Micro Trust Indicators */}
