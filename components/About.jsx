@@ -100,7 +100,7 @@ const About = () => {
                   size={18}
                   className="text-slate-400 group-hover:scale-110 transition-transform"
                 />
-                Get Free Quote
+                Get Quote
                 
               </button>
 
