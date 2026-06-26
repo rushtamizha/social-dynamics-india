@@ -95,19 +95,19 @@ const About = () => {
             >
               <button
                 onClick={() => handleEmail("Quote Request - Social Dynamics")}
-                className="group flex items-center justify-center gap-3 px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold transition-all hover:bg-slate-800 active:scale-95 w-full sm:w-auto"
-              >
-                Get Free Quote
-                <Mail
+                className="group flex items-center justify-center gap-3 md:px-8 px-4 py-4 bg-slate-900 text-white rounded-2xl font-bold transition-all hover:bg-slate-800 active:scale-95 w-full sm:w-auto"
+              ><Mail
                   size={18}
                   className="text-slate-400 group-hover:scale-110 transition-transform"
                 />
+                Get Free Quote
+                
               </button>
 
               {/* Functional WhatsApp Integration */}
               <button
                 onClick={handleWhatsApp}
-                className="group flex items-center gap-3 px-8 py-4 border-2 border-slate-200 text-white rounded-2xl font-bold hover:border-emerald-200 transition-all bg-emerald-600 justify-center duration-300 w-full sm:w-auto active:scale-95 shadow-sm"
+                className="group flex items-center gap-3 px-4 py-4 border-2 border-slate-200 text-white rounded-2xl md:px-8 font-bold hover:border-emerald-200 transition-all bg-emerald-600 justify-center duration-300 w-full sm:w-auto active:scale-95 shadow-sm"
               >
                 <MessageSquare size={18} className="text-white" />
                 WhatsApp Us
