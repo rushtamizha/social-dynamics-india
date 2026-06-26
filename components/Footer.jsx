@@ -10,7 +10,7 @@ const Footer = () => {
   // Functional WhatsApp Integration
   const handleWhatsAppRedirect = () => {
     // Replace with your company's official phone number (include country code, omit spaces/plus sign)
-    const phoneNumber = "9916989925"; 
+    const phoneNumber = "+919916989925"; 
     const message = encodeURIComponent(
       "Hi Social Dynamics team, I'm checking out your footer and would love to start a conversation about a new project!"
     );
@@ -110,7 +110,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-slate-500">
                 <Phone size={18} className="text-slate-400" />
-                <span className="text-sm font-medium">+91 9916989925</span>
+                <span className="text-sm font-medium">+91 +919916989925</span>
               </div>
             </div>
           </div>

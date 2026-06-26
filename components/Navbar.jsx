@@ -38,7 +38,7 @@ const Navbar = () => {
   // WhatsApp Redirect Function
   const handleWhatsAppRedirect = () => {
     // Replace with your actual company phone number (include country code, no + or spaces)
-    const phoneNumber = "9916989925"; 
+    const phoneNumber = "+919916989925"; 
     const text = encodeURIComponent("Hi Social Dynamics team, I would like to discuss a project with you.");
     window.open(`https://wa.me/${phoneNumber}?text=${text}`, "_blank", "noopener,noreferrer");
   };

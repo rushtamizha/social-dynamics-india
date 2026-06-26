@@ -27,7 +27,7 @@ const Hero = () => {
   // WhatsApp Redirection Handler
   const whatsappRedirect = () => {
     // Replace with your company's official phone number (include country code, omit spaces/plus sign)
-    const phoneNumber = "9916989925"; 
+    const phoneNumber = "+919916989925"; 
     const message = encodeURIComponent("Hi Social Dynamics team, I would like to discuss a project with you.");
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank", "noopener,noreferrer");
   };

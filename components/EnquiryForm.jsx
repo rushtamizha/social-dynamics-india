@@ -29,7 +29,7 @@ const EnquiryForm = () => {
     e.preventDefault();
     
     // Replace with your company's official phone number (include country code, omit spaces/plus sign)
-    const companyPhone = "9916989925"; 
+    const companyPhone = "+919916989925"; 
     
     const structuredMessage = 
       `*New Project Enquiry - Social Dynamics*\n\n` +
@@ -104,7 +104,7 @@ const EnquiryForm = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Official Line</p>
-                  <p className="text-lg font-bold text-slate-900">+91 9916989925</p>
+                  <p className="text-lg font-bold text-slate-900">+91 +919916989925</p>
                 </div>
               </div>
             </div>

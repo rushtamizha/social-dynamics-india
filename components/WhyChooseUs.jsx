@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
   // Central WhatsApp Router
   const handleWhatsAppRedirect = (customMessage) => {
     // Replace with your company's official phone number (include country code, omit spaces/plus sign)
-    const phoneNumber = "9916989925"; 
+    const phoneNumber = "+919916989925"; 
     const encodedText = encodeURIComponent(customMessage);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, "_blank", "noopener,noreferrer");
   };

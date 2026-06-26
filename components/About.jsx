@@ -18,7 +18,7 @@ const About = () => {
   // WhatsApp Redirection
   const handleWhatsApp = () => {
     // Replace with your company's official phone number (include country code, omit spaces/plus sign)
-    const phoneNumber = "9916989925";
+    const phoneNumber = "+919916989925";
     const message = encodeURIComponent(
       "Hi Social Dynamics team, I'm checking out your about section and would love to get more details on your digital marketing services.",
     );
