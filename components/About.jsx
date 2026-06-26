@@ -110,7 +110,7 @@ const About = () => {
                 className="group flex items-center gap-3 px-4 py-4 border-2 border-slate-200 text-white rounded-2xl md:px-8 font-bold hover:border-emerald-200 transition-all bg-emerald-600 justify-center duration-300 w-full sm:w-auto active:scale-95 shadow-sm"
               >
                 <MessageSquare size={18} className="text-white" />
-                WhatsApp Us
+                WhatsApp
               </button>
             </motion.div>
           </div>
