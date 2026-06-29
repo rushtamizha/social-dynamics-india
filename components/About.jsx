@@ -64,11 +64,11 @@ const About = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-6xl font-bold text-slate-900 leading-[1.1] tracking-tight"
+              className="text-4xl md:text-5xl font-bold text-slate-900 leading-[1.1] tracking-tight"
             >
-              Your Trusted Digital <br />
+              Scale Your <br />
               <span className="text-slate-400 font-medium ">
-                Marketing Partner.
+                Digital Legacy.
               </span>
             </motion.h2>
 

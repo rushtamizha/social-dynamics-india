@@ -46,7 +46,7 @@ const Footer = () => {
         {/* Top Section: CTA & Branding */}
         <div className="grid lg:grid-cols-2 gap-12 mb-20 border-b border-slate-50 pb-20">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight leading-tight mb-6">
+            <h2 className="text-4xl  font-bold text-slate-900 tracking-tight leading-tight mb-6">
               Let’s build something <br />
               <span className="text-slate-400">extraordinary together.</span>
             </h2>

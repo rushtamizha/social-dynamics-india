@@ -64,7 +64,7 @@ const WhyChooseUs = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-bold text-slate-900 mt-4 tracking-tight"
+            className="text-4xl  font-bold text-slate-900 mt-4 tracking-tight"
           >
             The Social Dynamics <span className="text-slate-400">Advantage.</span>
           </motion.h2>

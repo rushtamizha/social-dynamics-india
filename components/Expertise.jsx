@@ -84,7 +84,7 @@ const Expertise = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight leading-[1.1] max-w-3xl"
+            className="text-4xl  font-bold text-slate-900 tracking-tight leading-[1.1] max-w-3xl"
           >
             Comprehensive digital <br />
             <span className="text-slate-400">solutions for growth.</span>

@@ -78,7 +78,7 @@ const FAQ = () => {
           >
             <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Common Queries</span>
           </motion.div>
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight">
+          <h2 className="text-4xl  font-bold text-slate-900 tracking-tight">
             Frequently Asked <span className="text-slate-400">Questions.</span>
           </h2>
         </div>

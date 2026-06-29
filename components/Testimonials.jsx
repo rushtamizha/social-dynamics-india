@@ -170,7 +170,7 @@ const Testimonials = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight leading-[1.1] max-w-3xl"
+            className="text-4xl  font-bold text-slate-900 tracking-tight leading-[1.1] max-w-3xl"
           >
             Trusted by the <br />
             <span className="text-slate-400">visionaries of industry.</span>
@@ -195,7 +195,7 @@ const Testimonials = () => {
           >
             {reviews.map((item, index) => (
               <SwiperSlide key={index} className="h-auto">
-                <div className="group h-full p-10 bg-white border border-slate-100 rounded-[40px] hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.05)] transition-all duration-500 flex flex-col justify-between min-h-[420px]">
+                <div className="group h-full p-10 mt-10 bg-white border border-slate-100 rounded-[40px] hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.05)] transition-all duration-500 flex flex-col justify-between min-h-[420px]">
                   <div className="space-y-8">
                     {/* Top Row: Profile & Stars */}
                     <div className="flex items-center justify-between">

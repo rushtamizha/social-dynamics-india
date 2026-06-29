@@ -78,7 +78,7 @@ const EnquiryForm = () => {
               <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Get in Touch</span>
             </motion.div>
 
-            <h2 className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight leading-[1.1]">
+            <h2 className="text-4xl  font-bold text-slate-900 tracking-tight leading-[1.1]">
               Ready to scale your <br />
               <span className="text-slate-400">digital presence?</span>
             </h2>
